@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @mian17
 - 👀 I’m interested in Web Development.
-- 🌱 I’m currently learning HTML, CSS, JavaScript, React JS.
+- 🌱 I’m experienced in Laravel, ReactJS.
 
 <!---
 mian17/mian17 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
