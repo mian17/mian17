@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T07:22:30.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="5zhB9LFpzpsDeK5xqIrd" version="20.7.2" type="github"><diagram id="NZPrPqI8VFcQH-f-kqF_" name="Page-1">5Vpbb6M4FP41SLsPqbgEGh7Tdi6aalZdjUZ7eYkMOMQqYNaYXObX7zGYq0nSpEnamahSE3+2j885fJzPdqtZ9/H6E0Pp4isNcKSZerDWrAfNNCe2A78FsCkBW5dAyEhQQkYDfCM/sAR1ieYkwFlnIKc04iTtgj5NEuzzDoYYo6vusDmNuqumKMQK8M1HkYr+RQK+qMLSG/wzJuGiWtnQZU+MqsESyBYooKsWZH3QrHtGKS+/xet7HIncVXkp533c0ls7xnDCXzLhS/TvxrA/fXnMvn7/4/Oz9+fyez6ySytLFOUyYM10IrB3F5ClcJpvZCac/3Lh6Z1H16OM/CBJqFlTj7IAsxFg0LMq8zMtUmCLoch/DhnNE/BgqpkWHosf6EhREJQGzFTMbKzDt1B85hlmWeUKxFR4U3ZVKEceuDbkouLInCZcOI0FiOPeiroPiapdatkxlVFZivz+KF31vnbRo8D7PsgUJKiQp8dWzA2sDiTBzoECVJfZsXCFeMqYXciUc0a8nOPsuPnvA9mT6gTFWJ2MY0QiFU5Rlq3gpVB70BJxxFTcZxhxHMwQV/vyNNjaVzgwW2JG5mTLkLejyJ6UvtrUoPMCHHrhBF7Wigo3O2XDhCRyAiV/GpEwAYjTVDww2YrwXMyiMGoeFQV8TqCwWncLHsPHg1GbFHbwemt5NuqiD2KJaYw5A191KYzmrdSJVSMzxkRii7bEuBJEUtrC2lZT/eGLFIADxOD2nYqBF9HwqsXg9LUPHVW5D36tyUAhfAnSr7mD1CvY5tOIsoJRwFv222jUxn8fpBNsFbl4Kc9ln5MYzzidQWEPzhfEoGycdIlh9TnpEijnC8pmu2hyOfH6+GicUL/mz7Pd5o6OYY9zSk5/eQWVE8yxFEapqO4LBbWed3JBnQwIai9zOAmm4pgKLT+CzSPxu3kpFBOLRXRo4TXhf4ueG113Zfsf0XdjjE3Zfli3Bj9sWo0n2CxCYJhVWAJBCnMjHeyZFVIanDhOBTQWi9am3erbLAPEgXKq7j1FSALNmY/3n01h1xxivm/borKi9djtgadeYQxHiJNl190hJsgVnigR2lGRzpp0SWebPTKVYcpZ7eN5z9DY6hoa3/YMlXlQDBXErMM+nqvuO938FTcBM0YjfNVbQFgpGQ5uQTgeCUdwqb0pw4OJhE/IvNst66XZg/Tl/FcP6rXCBaO/wFKC0jv3PL9WuBdcSpSJnZm93P7vOAR2jXnOzrVzbMdqvjDWvWRVnDfVnt5zudYd6dh88zue6u8q707nr17hLyy7r727b1XLs1wdlVdA92qHR8IQStIBpR7qEmvV1GOvp66latVHmIOr1uRsVcs410lav3Hd3kna0V51kDa0zjnascbaz3GOdt/0HG1sId2h52jL6RqyLnyONsxzUbUgV5ertmsdT1ZB/XGXrBPXeGOyVjT4udjqnIqt9snYCs3mf0vK4c0/6Fgf/gc=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-15T07:50:26.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="sVBIk9F1hRoP8MD0J9ci" version="20.7.2" type="github">
+  <diagram id="NZPrPqI8VFcQH-f-kqF_" name="Page-1">
+    <mxGraphModel dx="1700" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JlZy15GJKsMUNHkbQvUu-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;users&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id (int)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Attributes&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name (varchar 255)&lt;br&gt;email (varchar 255)&lt;br&gt;password (varchar 255 - encrypted)&lt;br&gt;avatar (varchar 255)&lt;br&gt;created_at (datetime)&lt;br&gt;updated_at (datetime)&lt;br&gt;email_verified_at (datetime)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="270" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="JlZy15GJKsMUNHkbQvUu-7" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;blogs&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Attributes&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;id (int)&lt;br&gt;&lt;br&gt;&lt;br&gt;id (int)&lt;br&gt;name (varchar 255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;content (text)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;time_to_read (int)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;created_at (datetime)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated_at (datetime)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;author_id (int)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;FK1&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;fk_1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;author_id&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="90" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JlZy15GJKsMUNHkbQvUu-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.009;exitY=0.142;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.866;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JlZy15GJKsMUNHkbQvUu-5" target="JlZy15GJKsMUNHkbQvUu-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="520" as="sourcePoint" />
+            <mxPoint x="430" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JlZy15GJKsMUNHkbQvUu-9" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;users_roles&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;td&gt;id (int)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;Attributes&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;FK1&lt;/td&gt;&lt;td&gt;&lt;br&gt;user_id (int)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;role_id (int)&lt;br&gt;&lt;br&gt;fk_uur_1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;FK2&lt;/td&gt;&lt;td&gt;user_id&lt;br&gt;&lt;br&gt;fk_uur_2&lt;br&gt;role_id&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="420" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="JlZy15GJKsMUNHkbQvUu-10" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;roles&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id (int)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Attributes&lt;br&gt;&lt;br&gt;&lt;br&gt;FK1&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;name (varchar 255),&lt;br&gt;bigger_role_id (int)&lt;br&gt;&lt;br&gt;fk_rr_1&lt;br&gt;id (int)&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="420" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="JlZy15GJKsMUNHkbQvUu-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.01;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JlZy15GJKsMUNHkbQvUu-5" target="JlZy15GJKsMUNHkbQvUu-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JlZy15GJKsMUNHkbQvUu-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.019;exitY=0.593;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.994;entryY=0.891;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JlZy15GJKsMUNHkbQvUu-10" target="JlZy15GJKsMUNHkbQvUu-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="620" as="sourcePoint" />
+            <mxPoint x="360" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLUUnRdCALXY_nLT04qz-1" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;banners&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;Attributes&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;id (int)&lt;br&gt;&lt;br&gt;&lt;br&gt;id (int)&lt;br&gt;blog_id (int)&lt;br&gt;url (varchar 255)&lt;br&gt;created_at (datetime)&lt;br&gt;updated_at (datetime)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;fk_1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;blog_id&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-250" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vLUUnRdCALXY_nLT04qz-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.009;entryY=0.831;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vLUUnRdCALXY_nLT04qz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="130" as="sourcePoint" />
+            <mxPoint x="450" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLUUnRdCALXY_nLT04qz-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;images&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id (int)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Attributes&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;FK1&lt;/td&gt;&lt;td&gt;&lt;br&gt;id (int)&lt;br&gt;url (varchar 255)&lt;br&gt;blog_id (int)&lt;br&gt;&lt;br&gt;fk_1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;blog_id&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-10" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vLUUnRdCALXY_nLT04qz-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="JlZy15GJKsMUNHkbQvUu-7" target="vLUUnRdCALXY_nLT04qz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="sourcePoint" />
+            <mxPoint x="370" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLUUnRdCALXY_nLT04qz-7" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;blogs_tags&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;br&gt;&lt;br&gt;Attributes&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;id (int)&lt;br&gt;&lt;br&gt;&lt;br&gt;blog_id (int)&lt;br&gt;tag_id (int)&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;fk_bbt_1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;FK2&lt;/td&gt;&lt;td&gt;blog_id&lt;br&gt;&lt;br&gt;fk_btt_2&lt;br&gt;tag_id&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vLUUnRdCALXY_nLT04qz-8" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;tags&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id (int)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Attributes&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;id (int)&lt;br&gt;name (int)&lt;br&gt;created_at (datetime)&lt;br&gt;updated_at (datetime)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="140" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vLUUnRdCALXY_nLT04qz-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.002;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vLUUnRdCALXY_nLT04qz-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="130" as="sourcePoint" />
+            <mxPoint x="470" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLUUnRdCALXY_nLT04qz-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.998;entryY=0.841;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vLUUnRdCALXY_nLT04qz-8" target="vLUUnRdCALXY_nLT04qz-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="250" as="sourcePoint" />
+            <mxPoint x="660" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
